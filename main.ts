@@ -8,12 +8,15 @@ input.onButtonPressed(Button.A, function () {
     }
     basic.showArrow(input.temperature())
 })
+input.onButtonPressed(Button.AB, function () {
+	
+})
 input.onButtonPressed(Button.B, function () {
-    for (let index = 0; index <= 2; index++) {
+    for (let countdown_numbers = 0; countdown_numbers <= 2; countdown_numbers++) {
         music.play(music.tonePlayable(262, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
-        basic.showNumber(3 - index)
+        basic.showNumber(3 - countdown_numbers)
     }
-    music.play(music.tonePlayable(392, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    music.play(music.tonePlayable(392, music.beat(BeatFraction.Double)), music.PlaybackMode.InBackground)
     basic.showString("GO!")
     steps = 0
     for (let index = 0; index < 100000000000000000000; index++) {
@@ -24,6 +27,7 @@ input.onGesture(Gesture.Shake, function () {
     steps += 1
 })
 let steps = 0
+music.setBuiltInSpeakerEnabled(true)
 for (let index = 0; index < 2; index++) {
     music.play(music.stringPlayable("C D E F G A B - ", 120), music.PlaybackMode.InBackground)
     basic.showString("WELCOME")
