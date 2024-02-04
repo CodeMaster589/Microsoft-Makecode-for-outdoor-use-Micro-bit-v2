@@ -8,9 +8,6 @@ input.onButtonPressed(Button.A, function () {
     }
     basic.showArrow(input.temperature())
 })
-input.onButtonPressed(Button.AB, function () {
-	
-})
 input.onButtonPressed(Button.B, function () {
     for (let countdown_numbers = 0; countdown_numbers <= 2; countdown_numbers++) {
         music.play(music.tonePlayable(262, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
@@ -25,6 +22,7 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     steps += 1
+    led.stopAnimation()
 })
 let steps = 0
 music.setBuiltInSpeakerEnabled(true)
