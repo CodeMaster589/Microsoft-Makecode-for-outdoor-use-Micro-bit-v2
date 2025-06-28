@@ -1,4 +1,4 @@
-> Open this page at [https://codemaster589.github.io/microsoft-makecode-for-outdoor-use-micro-bit-v2/](https://codemaster589.github.io/microsoft-makecode-for-outdoor-use-micro-bit-v2/)
+> Open this page at [https://codemaster589.github.io/microsoft-makecode-for-outdoor-use-micro-bit-v2/](https://codingrules123.github.io/microsoft-makecode-for-outdoor-use-micro-bit-v2/)
 
 ## Use as Extension
 
@@ -15,4 +15,4 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/codemaster589/microsoft-makecode-for-outdoor-use-micro-bit-v2** and click import
+* paste **https://github.com/codingrules123/microsoft-makecode-for-outdoor-use-micro-bit-v2** and click import
